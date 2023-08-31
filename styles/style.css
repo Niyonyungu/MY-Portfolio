@@ -231,7 +231,10 @@ img{
 .nav__link:hover{
   color: var(--first-color);
 }
-
+/* Show menu */
+.show-menu{
+  right: 0;
+}
 /* Active link */
 .active-link{
   position: relative;
