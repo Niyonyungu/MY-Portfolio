@@ -385,7 +385,11 @@ margin-bottom: 8px;
 .bio__description{
   margin-bottom: var(--mb-2);
 }
-
+.bio h1{
+  color: rgb(34, 136, 136);
+  font-size:xx-large;
+  text-align: center;
+}
 .bio__details{
   display: grid;
   row-gap: 1rem;
