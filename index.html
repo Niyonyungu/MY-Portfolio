@@ -334,20 +334,20 @@
                     </div>
                 </div>
 
-                <form action="" class="contact__form" onsubmit="sendEmail(); reset(); return false;">
-                    <div class="contact__inputs">
+                <form action="https://formsubmit.co/vainqueurmg@gmail.com" method="POST" class="contact__form">
+                    <div class=" contact__inputs">
                         <div class="contact__content">
-                            <input type="email" placeholder=" " class="contact__input" id="email">
+                            <input type="email" placeholder=" " name="email" class="contact__input" required>
                             <label for="" class="contact__label">Email</label>
                         </div>
 
                         <div class="contact__content">
-                            <input type="text" placeholder=" " class="contact__input">
+                            <input type="text" placeholder=" " name="Subject" class="contact__input" required>
                             <label for="" class="contact__label">Subject</label>
                         </div>
 
                         <div class="contact__content contact__area">
-                            <textarea name="message" placeholder=" " class="contact__input"></textarea>
+                            <textarea name="message" placeholder=" " class="contact__input" required></textarea>
                             <label for="" class="contact__label">Message</label>
                         </div>
                     </div>
@@ -417,16 +417,7 @@
                 </ul>
             </div>
 
-            <div class="footer__content">
 
-
-                <div class="footer__cards">
-                    <img src="" alt="" class="footer__card">
-                    <img src="" alt="" class="footer__card">
-                    <img src="" alt="" class="footer__card">
-                    <img src="" alt="" class="footer__card">
-                </div>
-            </div>
         </div>
 
         <p class="footer__copy">Made By VAINQUEUR &#169; 2023 All rigths reserved </p>
@@ -434,7 +425,6 @@
 
     <!--=============== MAIN JS ===============-->
     <script src="/js/index.js"></script>
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
 </body>
 
 </html>
