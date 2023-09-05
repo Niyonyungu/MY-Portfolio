@@ -145,7 +145,7 @@ img{
 /*=============== HEADER ===============*/
 .header{
   width: 100%;
-  background-color: var(--body-color);
+  background-color: rgb(148, 188, 169);
   position: fixed;
   top: 0;
   left: 0;
@@ -235,21 +235,7 @@ img{
 .show-menu{
   right: 0;
 }
-/* Active link */
-.active-link{
-  position: relative;
-  color: var(--first-color);
-}
 
-.active-link::after{
-  content: '';
-  position: absolute;
-  bottom: -.5rem;
-  left: 0;
-  width: 50%;
-  height: 3px;
-  background-color: var(--first-color);
-}
 
 /*=============== HOME ===============*/
 .home{
@@ -386,7 +372,7 @@ margin-bottom: 8px;
   margin-bottom: var(--mb-2);
 }
 .bio h1{
-  color: rgb(34, 136, 136);
+  color: rgb(59,97,79);
   font-size:xx-large;
   text-align: center;
 }

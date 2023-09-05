@@ -28,7 +28,7 @@
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
                     <li class="nav__item">
-                        <a href="#home" class="nav__link active-link">HOME</a>
+                        <a href="#home" class="nav__link ">HOME</a>
                     </li>
                     <li class="nav__item">
                         <a href="#bio" class="nav__link">BIO</a>
@@ -334,10 +334,10 @@
                     </div>
                 </div>
 
-                <form action="" class="contact__form">
+                <form action="" class="contact__form" onsubmit="sendEmail(); reset(); return false;">
                     <div class="contact__inputs">
                         <div class="contact__content">
-                            <input type="email" placeholder=" " class="contact__input">
+                            <input type="email" placeholder=" " class="contact__input" id="email">
                             <label for="" class="contact__label">Email</label>
                         </div>
 
@@ -352,7 +352,7 @@
                         </div>
                     </div>
 
-                    <button class="button button--flex">
+                    <button class="button button--flex" type="submit">
                         Send Message
                         <i class="ri-arrow-right-up-line button__icon"></i>
                     </button>
@@ -434,6 +434,7 @@
 
     <!--=============== MAIN JS ===============-->
     <script src="/js/index.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
 </body>
 
 </html>
