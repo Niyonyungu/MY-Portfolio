@@ -30,3 +30,10 @@ function linkAction() {
 navLink.forEach((n) => n.addEventListener("click", linkAction));
 
 /*=============== SENDING EMAIL ON FORM ===============*/
+
+/*=============== GETTING YEAR DYNAMICALLY ===============*/
+
+var currentYear = new Date().getFullYear();
+document.getElementById("currentYear").innerHTML = currentYear;
+
+/*=============== END GETTING YEAR DYNAMICALLY ===============*/
