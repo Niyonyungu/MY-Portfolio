@@ -243,6 +243,11 @@ img{
   transition: .3s;
 }
 
+.nav_lgo{
+  width: 32px;
+  height: 32px;
+}
+
 /* Show menu */
 .show-menu{
   right: 0;
