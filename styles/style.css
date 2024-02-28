@@ -449,6 +449,19 @@ img{
   padding: 2px 30px;
   margin-right: 5px;
 }
+
+.experien{
+  /* background: red; */
+  color: black;
+  font-weight: 800;
+  font-size: 15px;
+}
+
+.experien h2{
+  color: rgb(88,97,99);
+  font-size: 20px;
+  font-weight: 100;
+}
 .tools{
   padding: 2px 30px;
   margin-right: 5px;
